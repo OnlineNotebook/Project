@@ -7,5 +7,6 @@ namespace TEAM_PROJECT.DB
 {
     public class Repository
     {
+        public RootObject _Dataset { get; set; }
     }
 }
