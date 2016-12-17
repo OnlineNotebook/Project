@@ -9,7 +9,7 @@ using System.Collections;
 using System.Net;
 using Newtonsoft.Json;
 using TEAM_PROJECT.Models;
-namespace WebApplication1.Controllers
+namespace TEAM_PROJECT.Controllers
 {
     public class PersonalTableController : Controller
     {
@@ -23,14 +23,6 @@ namespace WebApplication1.Controllers
 
             return View("~/Views/PersonalTable/Index.cshtml");
         }
-        [HttpPost]
-        public ActionResult Add(string a)
-        {
-
-            return View("~/Views/PersonalTable/Index.cshtml");
-        }
-
-
         public ActionResult Method(string value)
         {
             PersonalTable pt = new PersonalTable(value);

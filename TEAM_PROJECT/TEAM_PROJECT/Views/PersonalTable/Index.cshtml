@@ -1,19 +1,9 @@
-﻿@model WebApplication1.Models.PersonalTable
+﻿@model TEAM_PROJECT.Models.PersonalTable
 
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-<a href="#x" class="overlay" id="popup1"></a>
-
-<div class="popup">
-    @using (Html.BeginForm("Add"))
-    {
-        @Html.HiddenFor(model => model.Value)
-        <input type="submit" value="Update" />
-    }
-</div>
 
 <style>
     a {
