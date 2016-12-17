@@ -198,6 +198,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PersonalTableController.cs" />
     <Compile Include="DB\Cell.cs" />
     <Compile Include="DB\Repository.cs" />
     <Compile Include="Global.asax.cs">
