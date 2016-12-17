@@ -10,7 +10,7 @@ namespace TEAM_PROJECT.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return RedirectToAction("Index", "PersonalTable");
         }
 
         public ActionResult About()
