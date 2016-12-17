@@ -8,5 +8,9 @@ namespace TEAM_PROJECT.DB
     public class Repository
     {
         public RootObject _Dataset { get; set; }
+        public IEnumerable<Cell> Get() // Check
+        {
+            return _Dataset.cell.AsEnumerable();
+        }
     }
 }
